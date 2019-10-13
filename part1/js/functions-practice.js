@@ -1,30 +1,26 @@
 //STEP 1
 function halfNumber(n) {
-	const half = n / 2;
-	window.console.log("Half of " + n + " is " + half + ".");
-	return half;
+	return n / 2;
 }
+window.console.log("Half of " + 5 + " is " + halfNumber(5) + ".");
 
 //STEP 2
 function squareNumber(n) {
-	const square = n * n;
-	window.console.log("The result of squaring the number " + n + " is " + square + ".");
-	return square;
+	return n * n;
 }
+window.console.log("The result of squaring the number " + 3 + " is " + squareNumber(3) + ".");
 
 //STEP 3
 function percentOf(a, b) {
-	const percent = (a / b) * 100;
-	window.console.log(a + " is " + percent + " of " + b + ".");
-	return percent;
+	return (a / b) * 100;
 }
+window.console.log(2 + " is " + percentOf(2, 4) + "% of " + 4 + ".");
 
 //STEP 4
 function findModulus(a, b) {
-	const mod = a % b;
-	window.console.log(mod + " is the modulus of " + a + " and " + b + ".");
-	return mod;
+	return (a % b);
 }
+window.console.log(findModulus(10, 4) + " is the modulus of " + 4 + " and " + 10 + ".");
 
 //STEP 5
 function sum(args) {
