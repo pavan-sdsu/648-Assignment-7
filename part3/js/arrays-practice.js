@@ -94,11 +94,13 @@ leastFavMovies[1] = "Housefull 2";
 leastFavMovies[2] = "Housefull 3";
 
 window.console.log('Movies I like:');
+window.console.log('');
 for (let i = 0; i < movies.length; i++) {
 	window.console.log(movies[i]);
 }
 
 window.console.log('Movies I regret watching:');
+window.console.log('');
 for (let i = 0; i < leastFavMovies.length; i++) {
 	window.console.log(leastFavMovies[i]);
 }
